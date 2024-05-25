@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen">
+    <header class="bg-white h-14 flex justify-center items-center">
+      <nav class="flex justify-between items-center w-[92%]">
+        <div>
+          <span class="z-50">Karol Liszniewski</span>
+        </div>
+        <div
+          class="nav-links md:static absolute top-[-100%] md:min-h-fit bg-white min-h-[60vh] left-0 md:w-auto w-full flex items-center px-5 duration-1000"
+        >
+          <ul
+            class="flex md:flex-row flex-col md:items-center gap-[4vw] gap-12"
+          >
+            <li><a class="hover:text-gray-500" href="#">Home</a></li>
+            <li><a class="hover:text-gray-500" href="#">Projects</a></li>
+            <li><a class="hover:text-gray-500" href="#">Contact</a></li>
+            <li><a class="hover:text-gray-500" href="#">Projects</a></li>
+            <li><a class="hover:text-gray-500" href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="flex gap-6 items-center">
+          <button
+            class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]"
+          >
+            Sign In
+          </button>
+          <span id="menu">
+            <svg
+              class="h-9 text-3xl cursor-pointer md:hidden"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="32"
+                d="M80 160h352M80 256h352M80 352h352"
+              />
+            </svg>
+          </span>
+        </div>
+      </nav>
+    </header>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
