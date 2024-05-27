@@ -10,6 +10,10 @@
     font-style: normal;
   }
 
+  .nav_link {
+    @apply text-white text-base font-semibold p-2 h-full uppercase transition hover:text-yellow-theme select-none;
+  }
+
 @layer utilities {
     .h-screen-minus-header {
       height: calc(100vh - 6rem); /* 3.5rem to równoważnik h-14 w Tailwind (14 * 0.25rem) */
@@ -28,16 +32,16 @@
 
     .stripe {
         position: absolute;
-        width: 200vh;
+        width: 210vh;
         height: 20rem; /* height of the stripe */
         background-color: #35353A; /* Tomato color */
         transform: rotate(-63deg);
         top: -4rem;
-        right: -150%;
+        right: -220%;
     }
 
     .adjustStripe{
-        right:-30%;
+        right:-35%;
         height: 20rem;
     }
 

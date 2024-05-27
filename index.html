@@ -7,25 +7,42 @@
     <title>Vite App</title>
   </head>
   <body class="bg-background-base">
-    <header class="h-12 md:h-16 flex justify-center items-center">
+    <div class="w-[100vw] h-[110vh] absolute overflow-hidden top-[-4rem] z-0">
+      <div class="stripe md:adjustStripe"></div>
+    </div>
+    <header class="h-12 md:h-20 flex justify-center items-center">
       <nav
-        class="bg-stone-gray h-12 md:h-16 md:h-24 w-[95vw] md:w-[82%] z-10 flex justify-between"
+        class="bg-stone-gray h-12 md:h-20 w-[95vw] md:w-[82%] z-10 flex justify-between"
       >
-        <div class="relative h-[100%] flex z-40">
+        <div class="h-[100%] flex">
           <div
             class="w-16 md:w-20 bg-yellow-theme flex justify-center items-center h-[100%]"
           >
-            <span class="logo text-2xl md:text-5xl right-1 relative">K</span>
+            <span class="logo text-2xl md:text-5xl right-1 relative select-none"
+              >K</span
+            >
           </div>
           <div
-            class="relative top-2 font-bold text-white text-2xl md:text-5xl ml-3"
+            class="relative font-bold text-white text-2xl md:text-4xl ml-4 h-full flex items-center select-none"
           >
             Karol
           </div>
         </div>
-        <div id="navigation" class=""></div>
+
         <div
-          class="w-16 md:w-20 bg-yellow-theme flex justify-center items-center h-[100%]"
+          id="navigation"
+          class="justify-center items-center w-[50%] hidden md:flex"
+        >
+          <ul class="flex w-full justify-between">
+            <li><a class="nav_link" href="#">Home</a></li>
+            <li><a class="nav_link" href="#">Projects</a></li>
+            <li><a class="nav_link" href="#">About</a></li>
+            <li><a class="nav_link" href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div
+          class="w-16 md:w-20 bg-yellow-theme flex justify-center items-center h-[100%] hover:filter hover:brightness-110 transition duration-300 cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +50,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="h-8 md:h-16 relative"
+            class="h-8 md:h-16"
           >
             <path
               stroke-linecap="round"
@@ -44,9 +61,6 @@
         </div>
       </nav>
     </header>
-    <div class="w-[100vw] h-[90vh] absolute overflow-hidden top-[-4rem]">
-      <div class="stripe md:adjustStripe"></div>
-    </div>
 
     <div
       id="hero"
@@ -75,6 +89,9 @@
       </div>
     </div>
 
+    <section id="projects" class="h-96 w-full bg-black relative bottom-20">
+      hey
+    </section>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
