@@ -14,6 +14,18 @@
     @apply text-white text-base font-semibold p-2 h-full uppercase transition hover:text-yellow-theme select-none;
   }
 
+  .blurDiv{
+    @apply blur-lg -z-40
+  }
+
+  .nav_link_mobile{
+    @apply text-white font-semibold
+  }
+
+
+
+
+
 @layer utilities {
     .h-screen-minus-header {
       height: calc(100vh - 6rem); /* 3.5rem to równoważnik h-14 w Tailwind (14 * 0.25rem) */
