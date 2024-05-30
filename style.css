@@ -22,6 +22,10 @@
     @apply text-white font-semibold
   }
 
+  .stroke-4 {
+    stroke-width: 4;
+  }
+
 
 
 

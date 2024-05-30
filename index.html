@@ -8,7 +8,76 @@
   </head>
   <body class="bg-background-base">
     <!-- Mobile header -->
-    <header class="bg-[rgba(255,255,255,0.1)] absolute w-[100vw] h-[100vh]">
+    <header class="bg-[rgba(255,255,255,0.1)] absolute w-72 h-[100vh]">
+      <div class="h-16 w-full flex">
+        <span class="inline-block h-10 w-32 bg-[#6f6f76] m-3 rounded-full">
+          <span class="h-full w-32 flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-4 text-white relative left-2 stroke-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5 8.25 12l7.5-7.5"
+              />
+            </svg>
+            <span
+              class="text-white h-full w-full flex items-center justify-center text-sm font-semibold relative right-1 bottom-[1px]"
+              >Close menu</span
+            >
+          </span>
+        </span>
+      </div>
+
+      <div class="flex w-full h-16 bg-[rgba(0,0,0,.2)] justify-evenly">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            width="30px"
+            height="30px"
+            fill="#FFDD95"
+          >
+            <path
+              d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+            />
+          </svg>
+        </div>
+
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            width="30px"
+            height="30px"
+            fill="#FFDD95"
+          >
+            <path
+              d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+            />
+          </svg>
+        </div>
+
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            width="30px"
+            height="30px"
+            fill="#FFDD95"
+          >
+            <path
+              d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+            />
+          </svg>
+        </div>
+      </div>
+
       <nav>
         <div id="navigation">
           <ul class="w-full justify-between open_ul block">
@@ -21,7 +90,7 @@
       </nav>
     </header>
 
-    <div id="bluryDiv" class="blurDiv relative">
+    <div id="bluryDiv" class="relative blurDiv">
       <div
         class="w-[100vw] h-[110vh] absolute overflow-hidden top-[-4rem] -z-50"
       >
