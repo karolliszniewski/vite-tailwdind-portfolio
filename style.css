@@ -18,13 +18,18 @@
     @apply blur-lg -z-40
   }
 
+  .transition-filter{
+    transition:filter .3s ease;
+  }
+
   .nav_link_mobile{
-    @apply text-white font-semibold
+    @apply text-white hover:text-yellow-theme font-semibold h-12 block border-b border-[rgba(255,255,255,0.05)] flex justify-start items-center p-3
   }
 
   .stroke-4 {
     stroke-width: 4;
   }
+  
 
 
 
