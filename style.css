@@ -62,6 +62,8 @@
     }
 
     .adjustStripe{
+      width:300vh;
+      left:10rem;
         right:-35%;
         height: 20rem;
     }

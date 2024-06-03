@@ -8,6 +8,12 @@ module.exports = {
         'background-base' : '#242428',
         'yellow-theme': '#FFDD95'
       },
+      width: {
+        'custom-1300': '1300px',
+      },
+      screens: {
+        'custom-1300': '1300px',
+      },
     },
   },
   plugins: [],
